@@ -2,3 +2,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 /* ------font------ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+/* main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} */
+/* ------top banner section style---- */
+
+.banner{
+    background-color: rgb(38, 38, 141);
+    display:flex;
+}
+.banner-image{
+    width: 556.01px;
+    height: 438px; 
+    padding-right: 200px;
+}
+.text-part{
+    color: white;
+    width: 50%;
+    padding-left:200px ;
+    padding-top: 155px;
+}
+.button{
+    background-color: #E02C6D;
+    color: white;
+    width: 30px;
+}
+.img-part{
+    width:50%;
+    
+}
+.fa-arrow-right{
+    color: white;
+}
+.banner-image:hover{ 
+    transform: scale(1.1);
+}
+.text-part:hover{
+    transform: scale(1.5);
+}
