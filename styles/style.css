@@ -4,19 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #F3F1FF;
 }
-/* main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-} */
 /* ------top banner section style---- */
 
 .banner{
     background-color: rgb(38, 38, 141);
     display:flex;
+}
+.top-section{
+    display: grid;
 }
 .banner-image{
     width: 556.01px;
@@ -33,6 +31,7 @@ body{
     background-color: #E02C6D;
     color: white;
     width: 30px;
+    text-decoration: none;
 }
 .img-part{
     width:50%;
@@ -47,3 +46,53 @@ body{
 .text-part:hover{
     transform: scale(1.5);
 }
+/* ---------Players Part--------
+ */
+ main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .player-part1{
+    background-color: #FFFFFF;
+    width: 1230x;
+    padding: 30px ;
+    margin-top: 21px;
+    border-radius: 5px; 
+ }
+ .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+ }
+ .player .player-image img{
+    width: 330px;
+    height: 474px;
+ }
+ .player-title{
+    font-weight: bold;
+    font-size: 28px;
+ }
+ .footer-p{
+     color: gray;
+     text-align: center ;
+ }
+ .social-icon{
+     align-items: center;
+ }
+ .fa-facebook{
+     color: gray;
+ }
+ @media only screen and (max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .players{
+        flex-direction: column;
+    }
+}
+    
